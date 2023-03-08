@@ -200,38 +200,6 @@ body {
 
 /* Responsividade "Home" */
 
-@media (min-width: 400px) and (max-width: 700px) {
-
-    .cabecalho{
-        padding: 10% 10% 15% 10%;
-
-    }
-
-    .cabecalho__menu{
-        justify-content: space-around;
-        gap: 38px;
-    }
-
-    .apresentacao {
-        flex-direction: column-reverse;
-        padding: 5%;
-
-    }
-
-    .apresentacao__conteudo {
-        width: auto;
-    }
-
-    .apresentacao__links__link {
-        padding: 4%;
-        width: auto;
-    }
-
-    .apresentacao__imagem{
-        width: 70%;
-    }
-}
-
 @media (min-width: 701px) and (max-width: 1299px) {
 
     .cabecalho{
@@ -264,6 +232,71 @@ body {
         width: 90%;
     }
 }
+
+@media (min-width: 400px) and (max-width: 700px) {
+
+    .cabecalho{
+        padding: 10% 10% 15% 10%;
+
+    }
+
+    .cabecalho__menu{
+        justify-content: space-around;
+        gap: 38px;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+    }
+
+    .apresentacao__links__link {
+        padding: 4%;
+        width: auto;
+    }
+
+    .apresentacao__imagem{
+        width: 70%;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 399px) {
+
+    .cabecalho{
+        padding: 10% 10% 15% 10%;
+
+    }
+
+    .cabecalho__menu{
+        justify-content: space-around;
+        gap: 25px;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+    }
+
+    .apresentacao__links__link {
+        padding: 4%;
+        width: auto;
+    }
+
+    .apresentacao__imagem{
+        width: 70%;
+    }
+}
+
 
 /* Responsividade "About" */
 
@@ -320,3 +353,34 @@ body {
         width: 80%;
     }
 }
+
+@media (min-width: 0px) and (max-width: 399px) {
+
+    .sobre {
+         padding: 0% 5% 5% 5%;
+         flex-direction: column-reverse;
+         justify-content: space-between;
+         align-items: center;
+     }
+ 
+     .sobre__conteudo {
+         padding: 5%;
+         align-items: center;
+     }
+ 
+     .interesses {
+         padding: 2%;
+         width: auto;
+         gap: 5%;
+     }
+
+     .interesses__link{
+        border: 4px solid var(--nosso-azul);
+        border-radius: 10px;
+        padding: 10px 12px;
+    }
+ 
+     .apresentacao__imagem{
+         width: 80%;
+     }
+ }
