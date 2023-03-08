@@ -1,4 +1,4 @@
-# portfolio Bem vindo ao meu primeiro projeto de portfolio.
+Bem vindo ao meu primeiro projeto de portfolio.
 
 ## Ferramentas utilizadas:
 
